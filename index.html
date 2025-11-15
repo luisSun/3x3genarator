@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Grid</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dark">
+
+    <header class="topbar">
+        <div class="brand">Gerador de Grid</div>
+
+        <div class="controls-top">
+            <button id="btn3" class="btn sizeBtn">3×3</button>
+            <button id="btn4" class="btn sizeBtn">4×4</button>
+            <button id="btn5" class="btn sizeBtn">5×5</button>
+
+            <button id="saveBtn" class="btn">Salvar PNG</button>
+            <button id="resetBtn" class="btn">Resetar</button>
+
+            <button id="lightBtn" class="btn">Light</button>
+            <button id="darkBtn" class="btn">Dark</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="grid" class="grid" data-size="3"></div>
+    </main>
+
+    <!-- Modal de pesquisa -->
+    <div id="searchModal" class="modal hidden">
+        <div class="modal-content">
+            <input id="searchInput" class="searchInput" placeholder="Pesquisar personagem..." />
+            <div id="searchResults" class="results"></div>
+            <button id="closeSearchModal" class="btn closeBtn">Fechar</button>
+        </div>
+    </div>
+
+    <script src="scripts/api.js"></script>
+    <script src="scripts/grid.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>
