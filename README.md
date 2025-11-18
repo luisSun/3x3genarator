@@ -30,7 +30,7 @@ A simple and fun tool to generate classic-style *3x3 charts*.
 
 ## 🧭 How to Use
 
-👉 **Try it here:** https://luissun.github.io/dynamic-grid-dashboard/
+👉 **Try it here:** https://luissun.github.io/3x3genarator/
 
 
 
